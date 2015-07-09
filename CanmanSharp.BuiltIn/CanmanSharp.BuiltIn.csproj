@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E4206B0-1F0C-4B1C-9620-3DBA8050D112}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CanmanSharp.BuiltIn</RootNamespace>
+    <AssemblyName>CanmanSharp.BuiltIn</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Blenders\Multiply.cs" />
+    <Compile Include="Blenders\Normal.cs" />
+    <Compile Include="Filters\Brightness.cs" />
+    <Compile Include="Filters\Colorize.cs" />
+    <Compile Include="Filters\Clip.cs" />
+    <Compile Include="Filters\Channels.cs" />
+    <Compile Include="Filters\Exposure.cs" />
+    <Compile Include="Filters\Curves.cs" />
+    <Compile Include="Filters\Noise.cs" />
+    <Compile Include="Filters\Gamma.cs" />
+    <Compile Include="Filters\Sepia.cs" />
+    <Compile Include="Filters\Invert.cs" />
+    <Compile Include="Filters\Hue.cs" />
+    <Compile Include="Filters\FillColor.cs" />
+    <Compile Include="Filters\GreyScale.cs" />
+    <Compile Include="Filters\Contracts.cs" />
+    <Compile Include="Filters\Saturation.cs" />
+    <Compile Include="Blurs\Sharpen.cs" />
+    <Compile Include="Filters\Vibrance.cs" />
+    <Compile Include="Filters\Vignettes\Vignette.cs" />
+    <Compile Include="Filters\Vignettes\RectangularVignette.cs" />
+    <Compile Include="Filters\Vignettes\VignetteFilterEnum.cs" />
+    <Compile Include="Filters\Vignettes\VignetteOption.cs" />
+    <Compile Include="Filters\Vignettes\VignetterFilters.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CanmanSharp.Core\CanmanSharp.Core.csproj">
+      <Project>{9c88c707-0128-45ac-9f39-0c1dc01d2f88}</Project>
+      <Name>CanmanSharp.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

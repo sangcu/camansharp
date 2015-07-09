@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20617.1 PREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanmanSharpSample", "CanmanSharpSample\CanmanSharpSample.csproj", "{BA901612-C126-43E4-BC95-90CF0332B1F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanmanSharp.Core", "CanmanSharp.Core\CanmanSharp.Core.csproj", "{9C88C707-0128-45AC-9F39-0C1DC01D2F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanmanSharp.BuiltIn", "CanmanSharp.BuiltIn\CanmanSharp.BuiltIn.csproj", "{2E4206B0-1F0C-4B1C-9620-3DBA8050D112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanmanSharp.Presets", "CanmanSharp.Presets\CanmanSharp.Presets.csproj", "{83FC388B-3BE5-4A20-ACD2-734CBE77AF31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA901612-C126-43E4-BC95-90CF0332B1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA901612-C126-43E4-BC95-90CF0332B1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA901612-C126-43E4-BC95-90CF0332B1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA901612-C126-43E4-BC95-90CF0332B1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C88C707-0128-45AC-9F39-0C1DC01D2F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C88C707-0128-45AC-9F39-0C1DC01D2F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C88C707-0128-45AC-9F39-0C1DC01D2F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C88C707-0128-45AC-9F39-0C1DC01D2F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4206B0-1F0C-4B1C-9620-3DBA8050D112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4206B0-1F0C-4B1C-9620-3DBA8050D112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4206B0-1F0C-4B1C-9620-3DBA8050D112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4206B0-1F0C-4B1C-9620-3DBA8050D112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83FC388B-3BE5-4A20-ACD2-734CBE77AF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83FC388B-3BE5-4A20-ACD2-734CBE77AF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83FC388B-3BE5-4A20-ACD2-734CBE77AF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83FC388B-3BE5-4A20-ACD2-734CBE77AF31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
