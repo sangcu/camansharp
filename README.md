@@ -1,7 +1,7 @@
-##The port of Camanjs on .NET
+## The port of Camanjs on .NET
 
-##How to use it
-###Vignette Effect
+## How to use it
+### Vignette Effect
 ```c#
 string input = @"C:\in.jpg";
 string output = @"C:\out.jpg";
@@ -13,7 +13,7 @@ canman.Add(new Vignette(image.Size, 40, 30));
 
 canman.Render();
 ```
-###Multiple Layer Effects
+### Multiple Layer Effects
 ```c#
 string input = @"C:\in.jpg";
 string output = @"C:\out.jpg";
